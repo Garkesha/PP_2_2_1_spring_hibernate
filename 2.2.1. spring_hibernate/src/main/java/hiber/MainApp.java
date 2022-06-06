@@ -36,7 +36,7 @@ public class MainApp {
       }
 
 
-      System.out.println(userService.getUserByCarmodelAndSeries("BMW", 535));
+      System.out.println(userService.getUserByCarAndModel("BMW", 535));
 
 
       context.close();
